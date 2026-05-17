@@ -16,3 +16,108 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.main-title {
+  margin: 12px 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+}
+
+.label {
+  font-size: 24px;
+}
+
+#datetime-picker {
+  width: 250px;
+  height: 30px;
+  font-size: 28px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form button {
+  height: 55px;
+  width: 120px;
+  font-size: 28px;
+  border-radius: 10px;
+  border: none;
+  transition:
+    opacity 250ms ease-in-out,
+    background-color 250ms ease-in-out;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  opacity: 0.5;
+}
+
+.form button:disabled {
+  background-color: #585858;
+}
+.form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* ======================================================= */
+
+.form-snackbar {
+  width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+}
+
+input[type='number'] {
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+legend {
+  font-size: 20px;
+}
+
+fieldset label {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+button {
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
